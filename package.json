@@ -1,0 +1,18 @@
+{
+  "name": "@rsksmart/ethr-did-utils",
+  "version": "1.0.0",
+  "description": "Utils for Ethr DID method in RSK network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-ganache-and-deploy": "node scripts/startGanacheAndDeploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethjs": "^0.4.0",
+    "ethr-did-registry": "0.0.3",
+    "ganache-core": "^2.11.3"
+  }
+}
