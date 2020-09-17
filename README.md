@@ -12,7 +12,7 @@
 </p>
 
 ```
-npm i @rsksmart/ethr-did-utils
+npm i ganache-core @rsksmart/ethr-did-utils
 ```
 
 ## Features
