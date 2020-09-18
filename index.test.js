@@ -1,5 +1,5 @@
 const { startGanacheServerAndDeployEthrDidRegistry } = require('.')
-const promisify = require("pify");
+const promisify = require('pify');
 
 const port = 9435
 
