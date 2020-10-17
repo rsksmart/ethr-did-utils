@@ -1,6 +1,6 @@
 const { startGanacheServerAndDeployEthrDidRegistry } = require('..')
 
-const port = process.argv[2] || 8545
+const port = process.env.PORT || 8545
 
 startGanacheServerAndDeployEthrDidRegistry(port).then(({ blockchain, server, rpcUrl, eth, registryAddress, registry }) => {
   console.log(`Ganache started on port ${port} - rpcUrl: ${rpcUrl}`)
