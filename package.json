@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "test": "npx jest",
-    "start-ganache-and-deploy": "node scripts/startGanacheAndDeploy"
+    "start-ganache-and-deploy": "node scripts/startGanacheAndDeploy",
+    "deploy-registry": "node scripts/deployEthrDidRegistry.js"
   },
   "keywords": [],
   "author": "",
